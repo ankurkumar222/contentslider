@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Jquery Slider</title>
+		<style>
+			
+			.red{
+				color:red;
+			}
+
+			.green{
+				color:green;
+			}
+		</style>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+				/*$('.mylink').on('mouseenter',function(){
+					$('h1').addClass('red');
+				})
+
+				$('.mylink').on('mouseleave',function(){
+					$('h1').removeClass('red');
+				})*/
+
+				$('.mylink').click(function(){
+					//$('h1').replaceWith('<h3>Hello World</h3>');
+
+
+					$('h1').css('font-size','70px');
+				})
+
+
+			});
+
+
+		</script>
+	</head>
+	<body>
+		<h1>Welcome EveryOne</h1>
+		<a href="#" class="mylink">Click Me</a>
+
+	</body>
+
+
+</html>
